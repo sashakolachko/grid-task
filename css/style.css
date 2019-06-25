@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   margin:0;
-  background-color: #eebb84;
+  background-color: #054048;
 }
 
 .grid{
@@ -14,11 +14,18 @@
   grid-gap: 5px;
   width: 880px;
   height: 430px;
-  background-color: rgb(9, 60, 13);
   margin-top: 100px;
 }
 .grid__item{
-   background-color: #d3f7d1;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #d3f7d1;
+  display: flex;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+
 }
 .grid__item-3{
   background-color: rgba(251, 251, 251, 0);
@@ -27,40 +34,75 @@
 }
 .mail{
 grid-column: 1 /span 2;
+background-color: #048897;
 }
 .calendar{
  grid-column: 3/ span 2;
+ background-color: #5c3db5;
+}
+.explorer{
+  background-color: #257ffa;
+}
+.xbox{
+  background-color: #079108;
+}
+.store{
+  background-color: #079108;
 }
 .news{
   grid-column: 8/ span 2;
+  background-color: #ad1d41;
 }
 .people{
   grid-column: 1/ span 2;
+  background-color: #d34b25;
 }
 .photos{
   grid-column: 3/ span 2;
+  background-color: #048897;
 }
 .sport{
     grid-column: 8/ span 2;
+    background-color: #5c3db5;
 }
 .message{
   grid-column: 1 /span 2;
+  background-color: #9e04a4;
+}
+.maps{
+  background-color: #9e04a4;
 }
 .video{
    grid-column: 3/ span 2;
+   background-color: #ad1d41;
+}
+.drive{
+  background-color: #074fb5;
+}
+.camera{
+  background-color: #ad1d41;
 }
 .music{
    grid-column: 5/ span 2;
+   background-color: #d34b25;
 }
 .travel{
   grid-column: 8/ span 2;
+  background-color: #048897;
 }
 .desktop{
   grid-column: 1/ span 2;
+  background-color: #fff;
 }
 .weather{
   grid-column: 3/ span 2;
+  background-color: #207efa;
 }
 .finance{
   grid-column: 8/ span 2;
+  background-color: #079108;
+}
+.item__name{
+  align-self: flex-end;
+  margin: 0;
 }
